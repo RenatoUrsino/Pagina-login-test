@@ -1,0 +1,47 @@
+body{
+
+    background-color: skyblue;
+}
+
+#login {
+
+/*background-color: red;*/
+width: 300px;
+height: 150px;
+margin: auto;
+margin-top: 15%;
+text-align: center;
+padding-top: 5%;
+background-image: url(img3.jpg);
+}
+
+#login:hover {
+
+    background-image: url(img2.jpg);
+}
+
+a {
+
+color: black;
+text-decoration: none;
+}
+
+.principal{
+
+margin: auto;
+width: 500px;
+height: 500px;
+background-image: url(img.jpg);
+
+}
+
+@media screen and (min-width:360px) and (max-width:460px) {
+
+#login{
+margin-top: 25%;
+margin: auto;
+
+}
+
+    
+}
